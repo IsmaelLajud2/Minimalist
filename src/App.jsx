@@ -1,9 +1,12 @@
-import { useState } from 'react'
 import {createBrowserRouter as createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
-import HeroPage from './components/Hero/HeroPage'
-import TransitionHero from './components/Hero/TransitionHero'
+
 import { AnimatePresence } from 'framer-motion'
+import TransitionHero from './components/Hero/TransitionHero'
+
+import Layout from './LandingPage/Layout'
+
+
 
 function App() {
 
@@ -14,7 +17,7 @@ const router = createBrowserRouter([
   } ,
   {
     path:"/home",
-    element:<HeroPage/>
+    element:<Layout/>
   }
 ])
   
@@ -22,7 +25,9 @@ const router = createBrowserRouter([
     <>
     <AnimatePresence  mode='wait'>
   <RouterProvider router={router}></RouterProvider>
+  
   </AnimatePresence>
+ 
      </>
   )
 }

@@ -130,12 +130,14 @@
     color: white;
     max-height: fit-content;
     font-family: "Montserrat", sans-serif;
-
+    scale: 1;
+    transition: transform 0.3s ease-in-out;
 }
 
 .buynow-button:hover {
+    transform: translateY(-5px);
     cursor: pointer;
-    transition: unset;
+
 }
 
 .button-div {

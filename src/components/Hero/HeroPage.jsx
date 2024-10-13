@@ -1,4 +1,4 @@
-import '../Hero/HeroStyles.css'
+import './HeroStyles.css'
 import {  motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck} from '@fortawesome/free-solid-svg-icons'
@@ -27,12 +27,12 @@ const HeroPage = () => {
           <motion.img  transition={transition} initial={{  borderRadius:"10%",scale:1,width: "350px", height:" 450px"}} 
           animate={{ borderRadius:"0", width:"100%", height:"100%"}} 
           className='imagen-background' src='Images/HeroImagenMinimalist.jpeg'/>
-   <motion.div className='h1-animate' initial={{borderBottom:"0 solid #969494" ,width:0}} animate={{borderBottom:"1px solid #969494" ,width:""}} transition={transitionborderTop}>
+   <motion.div className='h1-animate' initial={{borderBottom:"0 solid #D9D2D2" ,width:0}} animate={{borderBottom:"1px solid #D9D2D2" ,width:""}} transition={transitionborderTop}>
         <motion.h1 className='h1-title-hero'        initial={{opacity:0 ,y:200 ,x:0}} animate={{opacity:1,y:50 ,x:0}} transition={transitiontext}  >Minimalist</motion.h1>
         </motion.div>
 
          <motion.div  className='text-section'> 
-          <motion.div className='left-div' initial={{borderRight:"0 solid #969494",height:0}} animate={{borderRight:"1px solid #969494",height:""}}  transition={transitionborder}  >
+          <motion.div className='left-div' initial={{borderRight:"0 solid #D9D2D2",height:0}} animate={{borderRight:"1px solid #D9D2D2",height:""}}  transition={transitionborder}  >
       
           <motion.p initial={{opacity:0,y:50}} animate={{opacity:1,y:10}} transition={transitiontext} className='p-left'>Creemos que el Cuidado de la Piel no es una rutina, es un viaje hacia la confianza, la vitalidad y la autoexpresión.</motion.p>
           </motion.div>
