@@ -5,24 +5,24 @@
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-    overflow: visible;
+    overflow: visible
 }
 
 .card-div {
     display: flex;
     overflow: visible;
+    height: 100%;
     position: sticky;
+
     top: 0;
-    height: 200vh;
-
-
 }
 
 .textleft-div {
+    height: 100%;
     display: flex;
-    max-height: 100vh;
     flex-direction: column;
     width: 750px;
+
 
 
 }
@@ -69,11 +69,10 @@
     margin: 0;
     flex: 1;
     height: 100vh;
-    position: sticky;
-    top: 0;
-    position: -webkit-sticky;
+
+
     height: 100%;
-    outline: 1px solid red;
+
 
 
 }
@@ -81,10 +80,9 @@
 .imagen-product {
     width: 100%;
     height: 100vh;
-    position: sticky;
-    top: 0;
+
     object-fit: cover;
-    position: -webkit-sticky;
+
 
 
 

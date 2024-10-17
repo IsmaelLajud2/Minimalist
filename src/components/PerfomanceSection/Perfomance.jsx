@@ -1,55 +1,43 @@
 import{useRef,useEffect,useState}from 'react'
 import  './PerfomanceStyles.css'
 import Gotas from '../Gotas'
-import { motion} from 'framer-motion'
-import { ScrollParallax } from 'react-just-parallax'
+import { motion } from 'framer-motion'
 
 const Perfomance = () => {
 
-const [isinView, setIsinView] = useState()
-const [scrollY, setScrollY] = useState(0);
-
-const imageRef = useRef(null);
-const handleScroll = () => {
-   setScrollY(window.scrollY);
-};
+   const [visibleSection, setVisibleSection] = useState(null);
 
 
-
-useEffect(() => {
-  const observer = new IntersectionObserver((entries) =>{
-   const entry = entries[0]
-   if (entry.isIntersecting) {
-      setIsinView(true)
-   } else {
-      setIsinView(false)
-   }
-  } , {threshold:0.3})
-
-  if (imageRef.current) {
-   observer.observe(imageRef.current)
-  }
-  return ()=>{
-   if (imageRef.current) {
-      observer.unobserve(imageRef.current)
-   }
-  }
-}, 
-
-[])
-
+const firstDivRef = useRef(null)
+const secondDivRef =useRef(null)
+const thirdDivRef =useRef(null)
 
 
 
 
 useEffect(() => {
-   window.addEventListener('scroll', handleScroll);
-   return () => {
-       window.removeEventListener('scroll', handleScroll);
-   };
-}, []);
+  const observer = new IntersectionObserver((entries)=>{
+   entries.forEach((entry) =>{
+      if (entry.isIntersecting) {
+         setVisibleSection(entry.target.id)
+      }
+   });
+  } ,
+{threshold: 0.85})
 
-    const transitiontext ={delay:0.6,duration:1.2, ease:[0.43,0.13,0.23,0.95]} 
+if (firstDivRef.current) observer.observe(firstDivRef.current)
+if(secondDivRef.current) observer.observe(secondDivRef.current)   
+if(thirdDivRef.current) observer.observe (thirdDivRef.current)
+  return () => {
+   if (firstDivRef.current) observer.unobserve(firstDivRef.current)
+      if(secondDivRef.current) observer.unobserve(secondDivRef.current)   
+         if(thirdDivRef.current) observer.unobserve(thirdDivRef.current)   
+
+  }
+}, [])
+
+
+    const transitiontext ={duration:1.6, ease: [0.25, 0.1, 0.25, 1]} 
   
   
   return (
@@ -57,20 +45,18 @@ useEffect(() => {
       
 
        <div className='card-div'>
- <div className='textleft-div'>
-    <motion.div initial={{opacity:0 ,y:50}} animate={ { opacity:1,y:10} } transition={transitiontext}  className='first-container'>
-
-   
-    <p className='perfomance-number'>[01]</p>
+ <motion.div className='textleft-div' ref={firstDivRef} transition={transitiontext}   id='firstDiv'  initial={{opacity:0 ,y:30}} animate={visibleSection === "firstDiv" ? {opacity:1 , y:10} : {opacity:0}}  >
+    <div  className='first-container' >
+<p className='perfomance-number'>[01]</p>
     <h1 className='perfomance-title'>Rendimiento Mejorado</h1>
-    </motion.div>
+    </div>
    <Gotas/>
     <div className='div-p-bottom-content'>
         <p className='p-bottom-content'>Nuestros productos ofrecen un rendimiento incomparable <br/>y cubren una amplia gama de tipos de cabello y piel. Desde <br/>revitalizar el cabello dañado hasta rejuvenecer el cutis cansado, <br/>priorizamos la eficiencia por sobre todas las cosas.</p>
 
     </div>
     
- </div>
+ </motion.div>
  <div  className="imagen-div">
   
 
@@ -81,9 +67,10 @@ useEffect(() => {
    </div>
     
    </div>
-   <div className='card-div'>
- <div className='textleft-div'>
-    <motion.div initial={{opacity:0 ,y:50}} animate={  { opacity:1,y:10} }  transition={transitiontext}  className='first-container'>
+   <motion.div className='card-div' >
+   <motion.div  className='textleft-div' transition={transitiontext}  ref={secondDivRef} id='secondDivRef'
+    initial={{opacity:0 ,y:30}} animate={visibleSection === "secondDivRef" ? {opacity:1 , y:10} : {opacity:0}}>
+    <motion.div   className='first-container'>
 
    
     <p className='perfomance-number'>[02]</p>
@@ -95,7 +82,7 @@ useEffect(() => {
 
     </div>
     
- </div>
+ </motion.div>
 
  <div className='imagen-div' >
 
@@ -104,10 +91,12 @@ useEffect(() => {
    </div>
     
 
-   </div>
-   <div className='card-div'>
- <div className='textleft-div'>
-    <motion.div initial={{opacity:0 ,y:50}} animate={  { opacity:1,y:10} }  transition={transitiontext}  className='first-container'>
+   </motion.div>
+   <motion.div className='card-div' >
+   <motion.div   className='textleft-div' ref={thirdDivRef} id='thirdDivRef'
+    initial={{opacity:0 ,y:30}} animate={visibleSection === "thirdDivRef" ? {opacity:1 , y:10} : {opacity:0}} transition={transitiontext}
+    >
+    <motion.div   className='first-container'>
 
    
     <p className='perfomance-number'>[03]</p>
@@ -119,14 +108,14 @@ useEffect(() => {
 
     </div>
     
- </div>
- <div  className='imagen-div' ref={imageRef}>
+ </motion.div>
+ <div  className='imagen-div' >
 
-    <img    className='imagen-product' src='Images/VersatilityImagen.webp' alt='producto' ref={imageRef} ></img>
+    <img    className='imagen-product' src='Images/VersatilityImagen.webp' alt='producto'  ></img>
                         
    </div>
     
-   </div>
+   </motion.div>
     </section>
    
   )
