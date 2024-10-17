@@ -1,6 +1,10 @@
 
 import HeroPage from '../components/Hero/HeroPage'
+import Perfomance from '../components/PerfomanceSection/Perfomance'
+
+
 import Seccion2 from '../components/whoweareSection/Seccion2'
+
 
 const Layout = () => {
 
@@ -9,6 +13,9 @@ const Layout = () => {
    
     <HeroPage/>
     <Seccion2/>
+    <Perfomance/>
+
+ 
     </>
   )
 }

@@ -1,0 +1,111 @@
+.perfomance-container {
+    width: 100%;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: visible;
+}
+
+.card-div {
+    display: flex;
+    overflow: visible;
+    position: sticky;
+    top: 0;
+    height: 200vh;
+
+
+}
+
+.textleft-div {
+    display: flex;
+    max-height: 100vh;
+    flex-direction: column;
+    width: 750px;
+
+
+}
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 40px 0 0 40px
+}
+
+.perfomance-number {
+    max-width: fit-content;
+    max-height: fit-content;
+    color: rgb(240 138 83);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.perfomance-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: rgb(26 26 43);
+}
+
+.p-bottom-content {
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 30px;
+    max-width: max-content;
+    max-height: min-content;
+    color: rgb(26 26 43);
+}
+
+
+
+.imagen-div {
+
+
+    width: 769px;
+    margin: 0;
+    flex: 1;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+    height: 100%;
+    outline: 1px solid red;
+
+
+}
+
+.imagen-product {
+    width: 100%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    object-fit: cover;
+    position: -webkit-sticky;
+
+
+
+}
+
+
+.gotas-imagen {
+    height: 100%;
+    animation: bounce 4s linear infinite
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}

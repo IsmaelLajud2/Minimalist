@@ -26,7 +26,7 @@ const HeroPage = () => {
 
           <motion.img  transition={transition} initial={{  borderRadius:"10%",scale:1,width: "350px", height:" 450px"}} 
           animate={{ borderRadius:"0", width:"100%", height:"100%"}} 
-          className='imagen-background' src='Images/HeroImagenMinimalist.jpeg'/>
+          className='imagen-background' src='Images/HeroImagenMinimalist.webp'/>
    <motion.div className='h1-animate' initial={{borderBottom:"0 solid #D9D2D2" ,width:0}} animate={{borderBottom:"1px solid #D9D2D2" ,width:""}} transition={transitionborderTop}>
         <motion.h1 className='h1-title-hero'        initial={{opacity:0 ,y:200 ,x:0}} animate={{opacity:1,y:50 ,x:0}} transition={transitiontext}  >Minimalist</motion.h1>
         </motion.div>

@@ -20,7 +20,7 @@ const TransitionHero = () => {
        animate={{y:0 }}
        whileHover={{scale:1.1}}
        transition={transition}
-       alt='product-img' src='Images/HeroImagenMinimalist.jpeg'>
+       alt='product-img' src='Images/HeroImagenMinimalist.webp'>
         </motion.img></Link>
     
     </motion.div>

@@ -1,0 +1,22 @@
+{
+    "product": [
+        {
+            "number": "[1]",
+            "title": "Rendimiento Mejorado",
+            "imagen": "public/Images/section3Parte1Imagen.webp",
+            "text": "Ya sea que busque hidratación, reparación o protección,nuestra  <br/> amplia gama de productos satisface una variedad de preocupaciones   <br/>y preferencias. Con las fórmulas efectivas de Minimalist , puede confiar en  <br/> que nuestros cosméticos cumplirán con sus expectativas."
+        },
+        {
+            "number": "[2]",
+            "title": "Precisión científica",
+            "imagen": "public/Images/MaleicImagen.webp",
+            "text": "Respaldadas por la ciencia, nuestras fórmulas  están elaboradas   <br/> meticulosamente  con ingredientes probados   que se enfocan <br/> en necesidades específicas del cuidado de la piel y el cabello. <br/> Priorizamos la funcionalidad para garantizar que cada producto <br/> brinde resultados óptimos sin concesiones."
+        },
+        {
+            "number": "[3]",
+            "title": "Versatilidad y Adaptabilidad",
+            "imagen": "public/Images/VersatilityImagen.webp",
+            "text": "Nuestros productos ofrecen un rendimiento incomparable <br/>y cubren una amplia gama de tipos de cabello y piel. Desde <br/>revitalizar el cabello dañado hasta rejuvenecer el cutis cansado, <br/>priorizamos la eficiencia por sobre todas las cosas."
+        }
+    ]
+}
