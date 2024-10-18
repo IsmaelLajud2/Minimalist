@@ -5,6 +5,7 @@ import Perfomance from '../components/PerfomanceSection/Perfomance'
 
 import 'lenis/dist/lenis.css'
 import Seccion2 from '../components/whoweareSection/Seccion2'
+import AtomSection from '../components/AtomSection/AtomSection'
 
 
 
@@ -38,7 +39,7 @@ const Layout = () => {
     <HeroPage/>
     <Seccion2/>
     <Perfomance/>
-   
+    <AtomSection/>
  
     </>
   )
