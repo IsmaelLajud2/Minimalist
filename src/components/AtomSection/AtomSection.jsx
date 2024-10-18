@@ -68,9 +68,9 @@ const AtomSection = () => {
         <p className='p-atom'>Qué hay dentro?</p>
       </motion.div>
 
-      <div className='imagen-atom-container'>
-        <img className='atom' src='Images/Atomo.webp' alt='atomo-imagen' />
-      </div>
+      <motion.div ref={titleRef} className='imagen-atom-container' initial={{opacity:0 ,y:100}} animate={titleisInView ? {opacity:1 ,y:0} : {}} transition={transitionTitle} >
+        <motion.img className='atom' src='Images/Atomo.webp' alt='atomo-imagen' />
+      </motion.div>
 
       <div className='info-container'>
         {renderList({ title: "Ingredientes", content: ingredients }, { ...transitionBorder, delay: 0.7 }, ref)}
