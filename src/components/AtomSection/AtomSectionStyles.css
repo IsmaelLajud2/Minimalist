@@ -34,7 +34,7 @@
 
 .imagen-atom-container {
     position: relative;
-    top: -6%;
+    top: 3%;
 }
 
 .atom {
@@ -73,14 +73,15 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
     position: relative;
-
+    padding-bottom: 10px;
+    overflow: hidden;
 
 }
 
 .title-list {
-    color: #4F4F4F;
-    border-bottom: 1px solid #dddcdc;
+    position: relative;
     width: 100%;
+    overflow: hidden;
 
 }
 
@@ -88,14 +89,16 @@
     display: flex;
     flex-direction: column;
     list-style: none;
+    width: 100%;
+    overflow: hidden;
 
 }
 
 .info-item {
     font-weight: 400;
     font-size: 0.9rem;
-    border-bottom: 1px solid #dddcdc;
+    min-height: 10px;
     width: 100%;
-    padding-top: 10px;
+    padding-top: 20px;
 
 }
