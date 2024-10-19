@@ -1,0 +1,19 @@
+.swiper {
+    margin: 100px auto;
+    width: 320px;
+    height: 240px;
+    background-color: #514f4f;
+    top: -40px;
+    left: 350px;
+    border-radius: 2%;
+}
+
+.swiper-slide {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.imagen-ingredients {
+    padding-left: 40px;
+}

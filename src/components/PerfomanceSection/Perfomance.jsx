@@ -62,7 +62,7 @@ if(thirdDivRef.current) observer.observe (thirdDivRef.current)
 
    
     
-    <img className='imagen-product' src='Images/section3Parte1Imagen.webp' alt='producto'     ></img>
+    <img className='imagen-product' src='Images/Perfomance/section3Parte1Imagen.webp' alt='producto'     ></img>
 
    </div>
     
@@ -86,7 +86,7 @@ if(thirdDivRef.current) observer.observe (thirdDivRef.current)
 
  <div className='imagen-div' >
 
-    <img className='imagen-product' src='Images/MaleicImagen.webp'alt='producto'   ></img>
+    <img className='imagen-product' src='Images/Perfomance/MaleicImagen.webp'alt='producto'   ></img>
 
    </div>
     
@@ -111,7 +111,7 @@ if(thirdDivRef.current) observer.observe (thirdDivRef.current)
  </motion.div>
  <div  className='imagen-div' >
 
-    <img    className='imagen-product' src='Images/VersatilityImagen.webp' alt='producto'  ></img>
+    <img    className='imagen-product' src='Images/Perfomance/VersatilityImagen.webp' alt='producto'  ></img>
                         
    </div>
     
