@@ -7,6 +7,7 @@ import 'lenis/dist/lenis.css'
 import Seccion2 from '../components/whoweareSection/Seccion2'
 import AtomSection from '../components/AtomSection/AtomSection'
 import IngredientsSection from '../components/Ingredients/IngredientsSection'
+import SpecialSection from '../components/Special/SpecialSection'
 
 
 
@@ -43,6 +44,7 @@ const Layout = () => {
     <Perfomance/>
     <AtomSection/>
     <IngredientsSection/>
+    <SpecialSection/>
     
     
     </>
