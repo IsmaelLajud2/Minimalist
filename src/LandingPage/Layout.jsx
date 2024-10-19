@@ -7,7 +7,7 @@ import 'lenis/dist/lenis.css'
 import Seccion2 from '../components/whoweareSection/Seccion2'
 import AtomSection from '../components/AtomSection/AtomSection'
 import IngredientsSection from '../components/Ingredients/IngredientsSection'
-import SwiperTest from '../components/Ingredients/CarouselIngredients'
+
 
 
 

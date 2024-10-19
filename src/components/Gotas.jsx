@@ -1,4 +1,4 @@
-import React from 'react'
+
 import '../components/PerfomanceSection/PerfomanceStyles.css'
 const Gotas = () => {
   return (
