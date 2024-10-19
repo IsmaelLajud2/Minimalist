@@ -23,7 +23,7 @@ useEffect(() => {
       }
    });
   } ,
-{threshold: 0.85})
+{threshold: 0.5})
 
 if (firstDivRef.current) observer.observe(firstDivRef.current)
 if(secondDivRef.current) observer.observe(secondDivRef.current)   
