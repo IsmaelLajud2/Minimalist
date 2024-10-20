@@ -5,8 +5,8 @@
     display: flex;
 
     justify-content: space-evenly;
-    align-items: center;
 
+    position: relative;
     overflow: hidden;
 
     padding-top: 70px;
@@ -14,13 +14,104 @@
 
 }
 
-.left-special-div {
-    position: relative;
-    left: -300px;
-}
+
 
 .h1-special {
     color: rgb(26 26 43);
     font-family: "Montserrat", sans-serif;
+    font-size: 3.2rem;
+    left: -80px;
+    position: relative;
+    top: 30px;
 
+}
+
+.right-special-div {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+
+}
+
+.first-div-right {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+
+}
+
+.animated-number {
+    height: fit-content;
+    font-size: 9rem;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    color: #dcd0d2;
+    font-family: 'Verdana', 'Courier', 'Caslon', sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+
+}
+
+.static-bar {
+    margin: 30px 0 30px 0;
+    position: relative;
+
+}
+
+.special-first-p {
+    height: fit-content;
+    color: rgb(26 26 43);
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.special-second-p {
+    height: fit-content;
+    color: #4F4F4F;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 50px;
+
+}
+
+.graphic-line {
+    position: absolute;
+    top: 472px;
+    right: 366px;
+    z-index: 3;
+
+
+
+}
+
+.normal-serum {
+    height: fit-content;
+    font-family: "Montserrat", sans-serif;
+}
+
+.minimalist-serum {
+    height: fit-content;
+
+}
+
+.minimalist-stadistic {
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    position: relative
+}
+
+.plus-number {
+    position: absolute;
+    right: 55px;
+    bottom: 1px;
+}
+
+.minimalist-number {
+    color: #d65612;
+    font-family: 'Verdana', 'Courier', 'Caslon', sans-serif;
 }

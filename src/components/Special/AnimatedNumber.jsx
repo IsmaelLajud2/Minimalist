@@ -1,5 +1,5 @@
 import {useState,useEffect,useRef} from 'react'
-
+import '../Special/SpecialStyles.css'
 
 const AnimatedNumber = () => {
  
@@ -78,7 +78,7 @@ const AnimatedNumber = () => {
   }, [isVisible])
     
   return (
-    <div ref={numberRef}><span>{number},{secondNumber}%</span></div>
+    <div ref={numberRef}><span>{number}.{secondNumber}%</span></div>
   )
 }
 
