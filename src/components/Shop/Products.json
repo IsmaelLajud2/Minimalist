@@ -13,10 +13,58 @@
             "imagen": "Images/Products/Body/MinimlistProductBody1.webp"
         },
         {
+            "name": "Minimalist Body Lotion ",
+            "price": 10,
+            "category": "body",
+            "imagen": "Images/Products/Body/MinimalistProductBody3.webp"
+        },
+        {
+            "name": "Minimalist Body Lotion ",
+            "price": 10,
+            "category": "body",
+            "imagen": "Images/Products/Body/MinimalistProductBody4.webp"
+        },
+        {
+            "name": "Minimalist Body Lotion ",
+            "price": 10,
+            "category": "body",
+            "imagen": "Images/Products/Body/MinimalistProductBody5.webp"
+        },
+        {
+            "name": "Minimalist Body Lotion ",
+            "price": 10,
+            "category": "body",
+            "imagen": "Images/Products/Body/MinimalistProductBody6.webp"
+        },
+        {
             "name": "Minimalist Hair Serum Combo",
             "price": 7,
             "category": "hair",
             "imagen": "Images/Products/Hair/MinimalistProductHair3.webp"
+        },
+        {
+            "name": "Minimalist Hair Serum ",
+            "price": 4,
+            "category": "hair",
+            "imagen": "Images/Products/Hair/MinimalistProductHair1.webp"
+        },
+        {
+            "name": "Minimalist Hair Serum ",
+            "price": 6,
+            "category": "hair",
+            "imagen": "Images/Products/Hair/MinimalistProductHair2.webp"
+        },
+        {
+            "name": "Minimalist Hair Serum ",
+            "price": 7,
+            "category": "hair",
+            "imagen": "Images/Products/Hair/MinimalistProductHair7.webp"
+        },
+        {
+            "name": "Minimalist Hair Serum ",
+            "price": 13,
+            "category": "hair",
+            "imagen": "Images/Products/Hair/MinimalistProductHair8.webp"
         },
         {
             "name": "Minimalist Hair  Serum Product ",
@@ -35,6 +83,30 @@
             "price": 8,
             "category": "skin",
             "imagen": "Images/Products/Skin/MinimalistProductSkin1.webp"
+        },
+        {
+            "name": "Minimalist Nutrition Skin Combo",
+            "price": 3,
+            "category": "skin",
+            "imagen": "Images/Products/Skin/MinimalistProductSkin3.webp"
+        },
+        {
+            "name": "Minimalist Nutrition Skin Combo",
+            "price": 9,
+            "category": "skin",
+            "imagen": "Images/Products/Skin/MinimalistProductSkin4.webp"
+        },
+        {
+            "name": "Minimalist Nutrition Skin Combo",
+            "price": 5,
+            "category": "skin",
+            "imagen": "Images/Products/Skin/MinimalistProductSkin5.webp"
+        },
+        {
+            "name": "Minimalist Nutrition Skin Combo",
+            "price": 9,
+            "category": "skin",
+            "imagen": "Images/Products/Skin/MinimalistProductSkin6.webp"
         }
     ]
 }

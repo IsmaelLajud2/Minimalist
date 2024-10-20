@@ -16,6 +16,8 @@ const ShopSection = () => {
       categoryFilter === 'All Products' || product.category === categoryFilter
   );
 
+  const randomProducts = [...filterProducts].sort(() => Math.random() - 0.5).slice(0, 6)
+
   return (
     <section className='shop-sectioncontainer'>
       <div className='right-div-filter'>
@@ -25,35 +27,35 @@ const ShopSection = () => {
             onClick={() => handleFilter('skin')}
             className='filter-button'
           >
-            Skin <span className='product-length'>[2]</span>
+            Skin <span className='product-length'>[6]</span>
           </button>
           <button
             onClick={() => handleFilter('body')}
             className='filter-button'
           >
-            Body <span className='product-length'>[2]</span>
+            Body <span className='product-length'>[6]</span>
           </button>
           <button
             onClick={() => handleFilter('hair')}
             className='filter-button'
           >
-            Hair <span className='product-length'>[2]</span>
+            Hair <span className='product-length'>[6]</span>
           </button>
           <button
             onClick={() => handleFilter('All Products')}
             className='filter-button'
           >
-            All Products <span className='product-length'>[12]</span>
+            All Products <span className='product-length'>[18]</span>
           </button>
         </div>
       </div>
       <div className='div-card-container'>
         <div className='card-container'>
-          {filterProducts.map((product, index) => {
+          {randomProducts.map((product,index) => {
             return (
               <CardProduct
                 className={isFiltered ? 'card-filtered' : 'card-product'}
-                key={index}
+                key={`${product.name}-${product.category}-${index}`} 
                 imagen={product.imagen}
                 category={product.category}
                 name={product.name}
