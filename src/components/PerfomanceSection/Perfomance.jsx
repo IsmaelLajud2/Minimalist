@@ -25,15 +25,20 @@ useEffect(() => {
   } ,
 {threshold: 0.3})
 
-if (firstDivRef.current) observer.observe(firstDivRef.current)
-if(secondDivRef.current) observer.observe(secondDivRef.current)   
-if(thirdDivRef.current) observer.observe (thirdDivRef.current)
-  return () => {
-   if (firstDivRef.current) observer.unobserve(firstDivRef.current)
-      if(secondDivRef.current) observer.unobserve(secondDivRef.current)   
-         if(thirdDivRef.current) observer.unobserve(thirdDivRef.current)   
+const firstDiv = firstDivRef.current;
+    const secondDiv = secondDivRef.current;
+    const thirdDiv = thirdDivRef.current;
 
-  }
+    if (firstDiv) observer.observe(firstDiv);
+    if (secondDiv) observer.observe(secondDiv);
+    if (thirdDiv) observer.observe(thirdDiv);
+
+    return () => {
+      
+      if (firstDiv) observer.unobserve(firstDiv);
+      if (secondDiv) observer.unobserve(secondDiv);
+      if (thirdDiv) observer.unobserve(thirdDiv);
+}
 }, [])
 
 

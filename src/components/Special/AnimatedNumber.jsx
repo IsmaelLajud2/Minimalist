@@ -21,17 +21,17 @@ const AnimatedNumber = () => {
 
       },{threshold:0.5})
 
-
+      const NumberDiv = number.current
       if (numberRef.current) {
         observer.observe(numberRef.current)
       }
       return () => {
-        if (number.current) {
-            observer.unobserve(numberRef.current)
+        if (NumberDiv) {
+            observer.unobserve(NumberDiv)
         }
        }
    
-    }, [])
+    }, [number])
     
 
 
