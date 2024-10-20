@@ -15,7 +15,7 @@ const SpecialSection = () => {
     <section className='speacial-section-container'>
         <div className='left-special-div'>
 
-        <h1 className='h1-special'> ¿Que lo hace <br/> {""}{""} especial?</h1>
+        <h1 className='h1-special'> ¿Que lo hace <br/>  especial?</h1>
         </div>
         <div className='right-special-div'>
           <div className='first-div-right'>

@@ -1,0 +1,40 @@
+{
+    "Products": [
+        {
+            "name": "Minimalist Body Lotion Combo",
+            "price": 8,
+            "category": "body",
+            "imagen": "Images/Products/Body/MinimalistProductBody2.webp"
+        },
+        {
+            "name": "Minimalist Body Lotion ",
+            "price": 3,
+            "category": "body",
+            "imagen": "Images/Products/Body/MinimlistProductBody1.webp"
+        },
+        {
+            "name": "Minimalist Hair Serum Combo",
+            "price": 7,
+            "category": "hair",
+            "imagen": "Images/Products/Hair/MinimalistProductHair3.webp"
+        },
+        {
+            "name": "Minimalist Hair  Serum Product ",
+            "price": 2,
+            "category": "hair",
+            "imagen": "Images/Products/Hair/MinimalistProductHair4.webp"
+        },
+        {
+            "name": "Minimalist Nutrition Skin Combo",
+            "price": 10,
+            "category": "skin",
+            "imagen": "Images/Products/Skin/MinimalistProductSkin2.webp"
+        },
+        {
+            "name": "Minimalist Nutrition Skin Combo",
+            "price": 8,
+            "category": "skin",
+            "imagen": "Images/Products/Skin/MinimalistProductSkin1.webp"
+        }
+    ]
+}
