@@ -46,7 +46,7 @@ const Layout = () => {
     <AtomSection/>
     <IngredientsSection/>
     <SpecialSection/>
-    <ShopSection/>
+    <ShopSection/> 
     
     
     </>

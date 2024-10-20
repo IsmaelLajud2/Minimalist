@@ -2,17 +2,17 @@ import React from 'react'
 import '../Shop/CardStyles.css'
 const CardProduct = ({imagen,category, name,price}) => {
   return (
-    <div className='card-product'>
-        <div className='imagen-container'>
+    <div className='shop-card-product'>
+        <div className='shop-imagen-container'>
 
-        <img className='imagen-product' src={imagen} alt='product-imagen'></img>
+        <img className='shop-imagen-product' src={imagen} alt='product-imagen'></img>
         </div>
-        <div className='card-info'>
+        <div className='shop-card-info'>
 
       
-        <p className='name-product'>{name}</p>
+        <p className='shop-name-product'>{name}</p>
       
-        <p className='price-product'>${price}</p>
+        <p className='shop-price-product'>${price}</p>
         </div>
     </div>
   )

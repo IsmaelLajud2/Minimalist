@@ -23,7 +23,7 @@ useEffect(() => {
       }
    });
   } ,
-{threshold: 0.5})
+{threshold: 0.3})
 
 if (firstDivRef.current) observer.observe(firstDivRef.current)
 if(secondDivRef.current) observer.observe(secondDivRef.current)   
@@ -58,11 +58,7 @@ if(thirdDivRef.current) observer.observe (thirdDivRef.current)
     
  </motion.div>
  <div  className="imagen-div">
-  
-
-   
-    
-    <img className='imagen-product' src='Images/Perfomance/section3Parte1Imagen.webp' alt='producto'     ></img>
+  <img className='imagen-product' src='Images/Perfomance/section3Parte1Imagen.webp' alt='producto'></img>
 
    </div>
     
