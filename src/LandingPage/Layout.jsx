@@ -34,7 +34,7 @@ const Layout = () => {
     }
     requestAnimationFrame(raf);
 
-    // Cleanup para cuando el componente se desmonte
+    
     return () => {
       lenis.destroy();
     };
@@ -50,7 +50,7 @@ const Layout = () => {
     <SpecialSection/>
     <ShopSection/> 
     <ReviewsSection/>
-    <LocationSection/>
+    {/* <LocationSection/> */}
     
     </>
   )

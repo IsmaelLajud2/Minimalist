@@ -1,6 +1,6 @@
-import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react';
 import '../Ingredients/SwiperStyles.css'
+
+import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { EffectCreative ,Autoplay} from 'swiper/modules';
 import 'swiper/css/effect-creative';

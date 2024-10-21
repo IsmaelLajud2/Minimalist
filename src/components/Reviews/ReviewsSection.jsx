@@ -1,6 +1,6 @@
-import React from 'react'
+
 import '../Reviews/ReviewStyles.css'
-import CardReviews from './CardReviews'
+
 import ReviewCard from './ReviewCard'
 const ReviewsSection = () => {
   return (
