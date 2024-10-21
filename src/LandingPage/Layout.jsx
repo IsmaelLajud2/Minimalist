@@ -10,7 +10,7 @@ import IngredientsSection from '../components/Ingredients/IngredientsSection'
 import SpecialSection from '../components/Special/SpecialSection'
 import ShopSection from '../components/Shop/ShopSection'
 import ReviewsSection from '../components/Reviews/ReviewsSection'
-import LocationSection from '../components/Location/LocationSection'
+// import LocationSection from '../components/Location/LocationSection'
 
 
 
