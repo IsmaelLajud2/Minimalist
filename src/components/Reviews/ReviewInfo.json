@@ -1,0 +1,39 @@
+{
+    "review": [
+        {
+            "image": "Images/Reviews/ReviewClient1.webp",
+            "rating": "[4.8]",
+            "review": "Los resultados fueron sorprendentes, mi piel se siente más suave y radiante.",
+            "name": "Maria L.",
+            "date": "Abril 2024"
+        },
+        {
+            "image": "Images/Reviews/ReviewClient2.webp",
+            "rating": "[4.7]",
+            "review": "He notado  mejoría en mi piel desde que comencé a usar estos productos.",
+            "name": "Sabrina P.",
+            "date": "Marzo 2024"
+        },
+        {
+            "image": "Images/Reviews/ReviewClient3.webp",
+            "rating": "[4.9]",
+            "review": "Increíble, realmente transformaron la apariencia de mi piel en poco tiempo.",
+            "name": "Ana G.",
+            "date": "Mayo 2024"
+        },
+        {
+            "image": "Images/Reviews/ReviewClient4.webp",
+            "rating": "[4.6]",
+            "review": "Mi piel nunca había estado tan bien. Estoy muy satisfecha con los resultados.",
+            "name": "Luisa F.",
+            "date": "Junio 2024"
+        },
+        {
+            "image": "Images/Reviews/ReviewClient5.webp",
+            "rating": "[4.8]",
+            "review": "Definitivamente recomendaría estos productos a mis amigos. ¡Me encantan!",
+            "name": "Elena M.",
+            "date": "Mayo 2024"
+        }
+    ]
+}
