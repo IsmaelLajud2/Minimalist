@@ -1,4 +1,4 @@
-import React ,{useRef} from 'react'
+import {useRef} from 'react'
 import '../Shop/CardStyles.css'
 import { motion,useInView } from 'framer-motion'
 const CardProduct = ({imagen, name,price}) => {
@@ -14,7 +14,7 @@ const isInView = useInView(ref);
     <div className='shop-card-product'>
         <motion.div ref={ref} className='shop-imagen-container'>
 
-        <motion.img transition={transitionImg} initial={{opacity :0.5 ,y:100}} animate={isInView ? {opacity :1 ,y:0} : {}}  className='shop-imagen-product' src={imagen} alt='product-imagen'></motion.img>
+        <motion.img transition={transitionImg} initial={{y:100}} animate={isInView ? {y:0} : {}}  className='shop-imagen-product' src={imagen} alt='product-imagen'></motion.img>
         </motion.div>
         <motion.div className='shop-card-info' initial={{opacity:0,y:80}} animate={isInView ?{opacity :1 ,y:30 } : {}} transition={transition} >
 

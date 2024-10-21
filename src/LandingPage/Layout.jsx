@@ -9,6 +9,7 @@ import AtomSection from '../components/AtomSection/AtomSection'
 import IngredientsSection from '../components/Ingredients/IngredientsSection'
 import SpecialSection from '../components/Special/SpecialSection'
 import ShopSection from '../components/Shop/ShopSection'
+import ReviewsSection from '../components/Reviews/ReviewsSection'
 
 
 
@@ -47,7 +48,7 @@ const Layout = () => {
     <IngredientsSection/>
     <SpecialSection/>
     <ShopSection/> 
-    
+    <ReviewsSection/>
     
     </>
   )

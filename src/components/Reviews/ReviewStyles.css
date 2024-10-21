@@ -1,0 +1,73 @@
+.review-section-container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+    padding: 0;
+    margin: 0;
+
+}
+
+.h1-background-review {
+    position: relative;
+    top: 90px;
+    left: 180px;
+    z-index: 0;
+
+
+}
+
+.review-h1 {
+    font-size: 8rem;
+    font-family: "Montserrat", sans-serif;
+    height: fit-content;
+    color: #dcd0d2;
+}
+
+.cards-andinfo-container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 170px
+}
+
+.card-review-container {
+    width: 100%;
+
+}
+
+.review-container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+
+}
+
+.right-card-container {}
+
+.review-clientesnumber {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #d65612;
+
+}
+
+.review-clienttext {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.review-card-people {}
+
+.card-review-people {
+    width: 800px;
+}
+
+.review-card-people {
+    height: 300px;
+
+    line-height: 300px;
+    text-align: center;
+}

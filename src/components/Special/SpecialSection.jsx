@@ -10,7 +10,7 @@ const SpecialSection = () => {
 
   const ref= useRef(null)
   
-  const isInView = useInView(ref, { once: true, margin: "-100px 0px" });
+  const isInView = useInView(ref, { once: true });
   return (
     <section className='speacial-section-container'>
         <div className='left-special-div'>
