@@ -11,6 +11,7 @@ import SpecialSection from '../components/Special/SpecialSection'
 import ShopSection from '../components/Shop/ShopSection'
 import ReviewsSection from '../components/Reviews/ReviewsSection'
 // import LocationSection from '../components/Location/LocationSection'
+import FooterSection from '../components/Footer/FooterSection'
 
 
 
@@ -51,6 +52,7 @@ const Layout = () => {
     <ShopSection/> 
     <ReviewsSection/>
     {/* <LocationSection/> */}
+    <FooterSection/>
     
     </>
   )
