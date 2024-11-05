@@ -1,28 +1,42 @@
-import React,{useState} from 'react'
-import { Pin,APIProvider,AdvancedMarker,Map,InfoWindow, Marker} from '@vis.gl/react-google-maps'
-import '../Location/LocationStyles.css'
+import React, { useState } from 'react';
+import { APIProvider, InfoWindow, Map,Marker, } from '@vis.gl/react-google-maps';
+import '../Location/LocationStyles.css';
+
+
 const LocationSection = () => {
+  // Define la posición del pin
+  const position = { lat: 40.417, lng: -3.703 };
+ 
 
-
-const position ={lat: 40.417,lng: -3.703}
-const [open, setOpen] = useState(false)
   return (
-    <APIProvider  apiKey={import.meta.env.VITE_API_KEY}>
-        <div  style={{width: '500px', height: '500px',overflow:"hidden"}}>
-        <Map
-       defaultCenter={position}
-        defaultZoom={17}
-        mapId={import.meta.env.VITE_MAPA_ID}
-       >
-        <Marker position={position} onClick={() => setOpen(true)} >
-            <Pin background={"red"} glyphColor={"white"}  />
+    <section className='location-section-container'>
+      <APIProvider apiKey={import.meta.env.VITE_API_KEY}>
+        <div className='map-container' style={{ width: '100%', height: '100%'}}>
+      
+          <Map
+            center={position}
+            zoom={16}
+            mapId={import.meta.env.VITE_MAPA_ID}
+          >
+           
+            <Marker title="My location" position={position}  >
+            
+      
+            </Marker>
         
-        {open && <InfoWindow onCloseClick={()=> setOpen(false)} position={position}><p>Minimalist Company</p></InfoWindow>}
-        </Marker>
-       </Map>
-       </div>
-    </APIProvider>
-  )
-}
+          </Map>
+        </div>
+      </APIProvider>
+   
 
-export default LocationSection
+      <div className='location-info-container'>
+        <p className='p-location'>[¿Dónde comprar?]</p>
+        <h1 className='h1-location'>¡Explora, descubre y disfruta!<br />Todo lo que buscas está en nuestra tienda.</h1>
+
+
+      </div>
+    </section>
+  );
+};
+
+export default LocationSection;

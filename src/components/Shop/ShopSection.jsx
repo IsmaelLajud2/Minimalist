@@ -4,7 +4,7 @@ import dataProduct from '../Shop/Products.json';
 import CardProduct from './CardProduct';
 
 const ShopSection = () => {
-  const [categoryFilter, setCategoryFilter] = useState('All Products');
+  const [categoryFilter, setCategoryFilter] = useState('hair');
   const isFiltered = categoryFilter !== 'All Products';
 
   const handleFilter = (category) => {

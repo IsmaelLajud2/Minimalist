@@ -10,7 +10,7 @@ import IngredientsSection from '../components/Ingredients/IngredientsSection'
 import SpecialSection from '../components/Special/SpecialSection'
 import ShopSection from '../components/Shop/ShopSection'
 import ReviewsSection from '../components/Reviews/ReviewsSection'
-// import LocationSection from '../components/Location/LocationSection'
+import LocationSection from '../components/Location/LocationSection'
 import FooterSection from '../components/Footer/FooterSection'
 
 
@@ -22,7 +22,7 @@ const Layout = () => {
   useEffect(() => {
     const lenis = new Lenis({
       smooth: true, // Activa el smooth scroll
-      duration: 1.5, // Opcional: Ajusta la duración del scroll suave
+      duration: 2.3, // Opcional: Ajusta la duración del scroll suave
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // Función de easing personalizada
       direction: 'vertical', // Scroll en vertical
       gestureDirection: 'vertical', // Reconocer gestos de scroll vertical
@@ -51,7 +51,7 @@ const Layout = () => {
     <SpecialSection/>
     <ShopSection/> 
     <ReviewsSection/>
-    {/* <LocationSection/> */}
+    <LocationSection/>
     <FooterSection/>
     
     </>
