@@ -88,3 +88,26 @@
     color: #d65612;
     cursor: pointer;
 }
+
+@media (max-width:650px) {
+    .h1-footer {
+        font-size: 4.5rem;
+        padding-top: 50px;
+    }
+
+    .footer-title {
+        height: 55%;
+    }
+
+    .footer-container {
+        height: 50vh;
+    }
+
+    .footer-imagen-container {
+        height: 100%;
+    }
+
+    .listfooter {
+        padding-left: 10px;
+    }
+}
