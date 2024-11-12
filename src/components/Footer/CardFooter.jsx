@@ -1,8 +1,8 @@
-import React from 'react'
+
 import '../Footer/CardFooterStyles.css'
 const CardFooter = () => {
   return (
-   /* From Uiverse.io by wilsondesouza */ 
+   
 <ul className="example-2">
   <li className="icon-content">
     <a

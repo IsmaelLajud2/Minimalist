@@ -45,7 +45,7 @@ const Layout = () => {
 
     <HeroPage/>
     <Seccion2/>
-    <Perfomance/>
+    {/* <Perfomance/> */}
     <AtomSection/>
     <IngredientsSection/>
     <SpecialSection/>

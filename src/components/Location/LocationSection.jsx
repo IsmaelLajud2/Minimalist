@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { APIProvider, InfoWindow, Map,Marker, } from '@vis.gl/react-google-maps';
+
+import { APIProvider,  Map,Marker, } from '@vis.gl/react-google-maps';
 import '../Location/LocationStyles.css';
 
 

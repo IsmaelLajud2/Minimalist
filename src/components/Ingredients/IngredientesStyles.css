@@ -66,3 +66,13 @@
 
 
 }
+
+@media (max-width:650px) {
+    .ingredients-section-container {
+        padding: 0;
+    }
+
+    .div-swiper {
+        padding-right: 40px;
+    }
+}

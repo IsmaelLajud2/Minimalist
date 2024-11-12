@@ -119,3 +119,19 @@
     position: absolute;
     right: 40px;
 }
+
+@media (max-width:650px) {
+    .speacial-section-container {
+        padding-top: 10px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .left-special-div {
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+}

@@ -1,9 +1,6 @@
 .hero-section {
     height: 100vh;
     width: 100%;
-
-
-    /* color: rgb(237, 97, 97); */
     color: white;
     display: flex;
     flex-direction: column;
@@ -38,7 +35,7 @@
 
 .h1-title-hero {
 
-    font-size: clamp(5rem, 12vw, 15rem);
+    font-size: clamp(3.3rem, 12vw, 15rem);
     font-weight: 900;
     font-family: 'Montserrat', sans-serif;
     height: 100px;
@@ -160,5 +157,42 @@
 
 span {
     margin-right: 6px;
+
+}
+
+@media (max-width:650px) {
+    .buynow-button:hover {
+        transition: none;
+    }
+
+    .p-left {
+        padding: 130px 10px 10px 10px;
+        font-size: 0.8rem;
+
+    }
+
+    .left-div {
+        max-width: 100%;
+
+    }
+
+    .box-div {
+        right: 6px;
+        width: 200px;
+        max-height: 300px;
+    }
+
+    .top-div {
+        flex-direction: column;
+    }
+
+    .button-div {
+        flex-direction: column;
+    }
+
+    .h1-title-hero {
+        top: 20%;
+    }
+
 
 }

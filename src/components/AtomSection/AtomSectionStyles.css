@@ -43,7 +43,7 @@
     width: 100%;
     object-fit: cover;
     height: 450px;
-    width: 100%;
+
     animation: levite 6s ease-in-out infinite;
     z-index: 2;
 
@@ -102,5 +102,23 @@
     min-height: 10px;
     width: 100%;
     padding-top: 20px;
+
+}
+
+@media (max-width:650px) {
+    .atom {
+        height: 300px;
+        width: 100%
+    }
+
+    .info-container {
+        width: 100%;
+        padding: 0;
+
+    }
+
+    .list-item-container {
+        padding-left: 8px;
+    }
 
 }

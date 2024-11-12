@@ -13,10 +13,10 @@ const Seccion2 = () => {
 
 
       const radius = 230; 
-      const circumference = 2 * Math.PI * radius; // Perímetro del círculo
+      const circumference = 2 * Math.PI * radius; 
   
       const drawFromTopRight = {
-          hidden: { strokeDashoffset: circumference }, // Comienza con el trazo oculto
+          hidden: { strokeDashoffset: circumference }, 
           visible: {
               strokeDashoffset: 0, 
               transition: {
@@ -56,10 +56,7 @@ const Seccion2 = () => {
                         fill="transparent"
                       />
                             </motion.svg>
-                     
-             
-                       
-</motion.div>
+                     </motion.div>
 
 
     

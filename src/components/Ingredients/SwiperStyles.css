@@ -17,3 +17,10 @@
 .imagen-ingredients {
     padding-left: 40px;
 }
+
+@media (max-width:650px) {
+    .swiper {
+        left: 0;
+        top: 0;
+    }
+}
