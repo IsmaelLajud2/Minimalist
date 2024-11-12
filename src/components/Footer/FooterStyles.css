@@ -107,12 +107,13 @@
         height: 100%;
     }
 
-    .listfooter {
-        padding-left: 10px;
-    }
 
     .footer-imagen-container {
         width: 0;
         height: 0;
+    }
+
+    .about-us-footer {
+        justify-content: space-around;
     }
 }

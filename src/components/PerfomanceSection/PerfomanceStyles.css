@@ -78,11 +78,7 @@
 .imagen-product {
     width: 100%;
     height: 100vh;
-
     object-fit: cover;
-
-
-
 
 }
 
@@ -103,5 +99,56 @@
 
     100% {
         transform: translateY(-10px);
+    }
+}
+
+@media (max-width:650px) {
+    .first-container {
+        padding: 10px 0 0 0;
+        align-items: center;
+        height: 70%;
+        justify-content: center;
+    }
+
+    .imagen-div {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .gotas-container {
+        display: none;
+    }
+
+    .p-bottom-content {
+        padding-left: 0;
+    }
+
+    .gotas-imagen {
+        width: 100%;
+    }
+
+    .imagen-product {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .card-div {
+        flex-direction: column;
+        position: initial
+    }
+
+    .p-bottom-content {
+        padding: 0 0 30px 10px
+    }
+
+    .textleft-div {
+        width: 100%;
+    }
+
+    .perfomance-title {
+        height: fit-content;
+        font-size: 1.5rem;
     }
 }

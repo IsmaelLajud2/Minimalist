@@ -21,12 +21,12 @@ const Layout = () => {
 
   useEffect(() => {
     const lenis = new Lenis({
-      smooth: true, // Activa el smooth scroll
-      duration: 2.3, // Opcional: Ajusta la duración del scroll suave
-      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // Función de easing personalizada
-      direction: 'vertical', // Scroll en vertical
-      gestureDirection: 'vertical', // Reconocer gestos de scroll vertical
-      smoothTouch: true, // Suaviza el scroll en dispositivos táctiles
+      smooth: true, 
+      duration: 2.3, 
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      direction: 'vertical', 
+      gestureDirection: 'vertical', 
+      smoothTouch: true,
     });
 
     function raf(time) {
@@ -45,7 +45,7 @@ const Layout = () => {
 
     <HeroPage/>
     <Seccion2/>
-    {/* <Perfomance/> */}
+    <Perfomance/>
     <AtomSection/>
     <IngredientsSection/>
     <SpecialSection/>
