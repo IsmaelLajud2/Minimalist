@@ -110,4 +110,9 @@
     .listfooter {
         padding-left: 10px;
     }
+
+    .footer-imagen-container {
+        width: 0;
+        height: 0;
+    }
 }
