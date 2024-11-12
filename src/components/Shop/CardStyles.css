@@ -54,3 +54,15 @@
     font-family: 'Verdana', 'Courier', 'Caslon', sans-serif;
 
 }
+
+@media (max-width:650px) {
+    .shop-imagen-container {
+        height: 250px;
+        width: 250px;
+    }
+
+    .shop-card-info {
+        padding-top: 0;
+        display: inline;
+    }
+}

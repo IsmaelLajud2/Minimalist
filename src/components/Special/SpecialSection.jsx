@@ -29,13 +29,13 @@ const SpecialSection = () => {
         <p className='normal-serum'> Serum normal</p>
         
         <motion.div ref={ref} initial={{height:0, opacity:0 ,borderRight:"0px dotted #000"}} animate={isInView ? {opacity:0.5,borderRight:"3.1px dotted #000" ,height:"136px"} :{}} transition={transitionborderbar} className='graphic-line'></motion.div>
-        <motion.div ref={ref} initial={{width: 0 ,height : "30px", opacity:0 ,backgroundColor: "#dcd0d2" }} animate={isInView ? { opacity:1, width:"360px",backgroundColor: "#dcd0d2"   } : {}} transition={transitionBar} className='static-bar'/>
+        <motion.div ref={ref} initial={{width: 0 ,height : "30px", opacity:0 ,backgroundColor: "#dcd0d2" }} animate={isInView ? { opacity:1, width:"",backgroundColor: "#dcd0d2"   } : {}} transition={transitionBar} className='static-bar'/>
         <aside className='minimalist-stadistic'>
         <p className='minimalist-serum'>Serum Minimalist</p>
         <p className='minimalist-number'><span className='plus-number'>+</span><AnimatedNumber></AnimatedNumber></p>
         </aside>
         
-          <motion.div ref={ref} initial={{width: 0 ,height : "30px", opacity:0,backgroundColor: "#d65612" }} animate={isInView ? { opacity:1, width:"500px",backgroundColor: "#d65612" } : {}} transition={transitionBar} className='static-bar'>
+          <motion.div ref={ref} initial={{width: 0 ,height : "30px", opacity:0,backgroundColor: "#d65612" }} animate={isInView ? { opacity:1, width:"",backgroundColor: "#d65612" } : {}} transition={transitionBar} className='static-bar-orange'>
               
           </motion.div>
     

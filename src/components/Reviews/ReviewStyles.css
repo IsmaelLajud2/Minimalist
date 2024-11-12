@@ -163,3 +163,38 @@
     font-size: 0.8rem;
     padding: 0px 15px 0 15px;
 }
+
+@media (max-width:650px) {
+    .review-h1 {
+        font-size: 3rem;
+
+    }
+
+    .review-section-container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        height: 90vh;
+    }
+
+    .cards-andinfo-container {
+        flex-direction: column;
+    }
+
+    .h1-background-review {
+        left: 130px;
+    }
+
+    .review-container {
+        flex-direction: column;
+        padding-left: 50px;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .right-card-container {
+        padding-left: 350px;
+    }
+}

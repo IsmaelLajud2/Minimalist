@@ -6,6 +6,7 @@
     flex-direction: row;
     padding-bottom: 40px;
     justify-content: space-evenly;
+
 }
 
 .div-card-container {
@@ -81,4 +82,37 @@
 
 .product-length {
     color: #d65612;
+}
+
+@media (max-width:650px) {
+    .shop-h1title {
+        font-size: 1.5rem;
+
+    }
+
+    .shop-sectioncontainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .shop-h1title {
+        padding-left: 20px;
+    }
+
+    .filters {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+        height: 40%;
+    }
+
+    .right-div-filter {
+        padding-top: 30px;
+        height: 30%;
+    }
+
+    .card-container {
+        padding: 10px;
+    }
 }

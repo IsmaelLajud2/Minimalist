@@ -41,3 +41,24 @@
     position: relative;
     margin-right: 30px;
 }
+
+@media (max-width:650px) {
+    .location-section-container {
+        flex-direction: column-reverse;
+    }
+
+    .p-location {
+        left: 0;
+
+    }
+
+    .h1-location {
+        padding-left: 30px;
+    }
+
+    .map-container {
+        margin: 0;
+
+    }
+
+}
